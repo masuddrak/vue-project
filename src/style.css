@@ -1,0 +1,20 @@
+@import "tailwindcss";
+.swiper-pagination {
+    position: absolute;
+    text-align: right !important;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+}
+.swiper-pagination-bullet {
+    background-color: white !important;
+    
+opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: blue !important;
+    width: 20px !important;
+    height: 5px !important;
+    border-radius: 2px !important;
+    opacity: 1 !important;
+}
